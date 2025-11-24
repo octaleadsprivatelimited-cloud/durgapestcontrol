@@ -246,7 +246,7 @@ export default function KhammamLocation() {
           <div className="map-info">
             <p><strong>Address:</strong> Plot:36, Raghavendra colony Kukatpally, Hyderabad</p>
             <a 
-              href="https://maps.google.com/?q=Plot+36,+Raghavendra+colony+Kukatpally,+Hyderabad" 
+              href="https://maps.app.goo.gl/XuRRqimFG1NsKQdL8" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-outline"

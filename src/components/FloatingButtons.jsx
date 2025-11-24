@@ -48,7 +48,7 @@ export default function FloatingButtons() {
 
 			{/* Location Button */}
 			<a 
-				href="https://maps.google.com/?q=Plot+36,+Raghavendra+colony+Kukatpally,+Hyderabad" 
+				href="https://maps.app.goo.gl/XuRRqimFG1NsKQdL8" 
 				className="contact-btn maps-btn hyderabad-btn"
 				target="_blank"
 				rel="noopener noreferrer"

@@ -101,7 +101,7 @@ export default function Contact() {
                             <div className="contact-card-icon">📍</div>
                             <h3>Our Office</h3>
                             <p>Plot:36, Raghavendra colony Kukatpally, Hyderabad</p>
-                            <a href="https://maps.google.com/?q=Plot+36,+Raghavendra+colony+Kukatpally,+Hyderabad" target="_blank" rel="noopener noreferrer" className="map-link">Get Directions</a>
+                            <a href="https://maps.app.goo.gl/XuRRqimFG1NsKQdL8" target="_blank" rel="noopener noreferrer" className="map-link">Get Directions</a>
                         </div>
                     </div>
 
