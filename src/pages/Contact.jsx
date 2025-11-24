@@ -22,6 +22,7 @@ export default function Contact() {
         'Cinema & Shopping Malls',
         'Pre-Construction Service',
         'Residential, Commercial & Factory',
+        'Anti-Termite Pipeline Service',
         'Emergency Service',
         'Other'
     ]

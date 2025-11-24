@@ -21,6 +21,7 @@ const commercialServices = [
 	{ slug: 'fogging-service', title: 'Fogging Service', excerpt: 'Professional fogging services for mosquito control, disinfection, and pest elimination.' },
 	{ slug: 'pre-construction-service', title: 'Pre-Construction Service', excerpt: 'Pre-construction pest control and termite treatment to protect your building from the ground up.' },
 	{ slug: 'residential-commercial-factory', title: 'Residential, Commercial & Factory', excerpt: 'Comprehensive pest control solutions for residential, commercial, and industrial properties.' },
+	{ slug: 'anti-termite-pipeline', title: 'Anti-Termite Pipeline Service', excerpt: 'Professional anti-termite pipeline installation and treatment for long-term termite protection.' },
 ]
 
 import SEO from '../components/SEO.jsx'

@@ -482,6 +482,25 @@ export const seoData = {
     }
   },
 
+  antiTermitePipeline: {
+    title: 'Best Anti-Termite Pipeline Service in Hyderabad | Pipeline Installation & Treatment | Durga Bhavani Pest Control Service',
+    description: '🏆 Professional anti-termite pipeline installation and treatment in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Long-term termite protection, chemical injection system, barrier creation. 24/7 service. Call +91 8790128760',
+    keywords: 'anti-termite pipeline hyderabad, termite pipeline installation hyderabad, anti-termite pipeline service hyderabad, termite pipeline treatment hyderabad, pipeline termite control hyderabad, anti-termite pipeline near me, anti-termite pipeline banjara hills, anti-termite pipeline jubilee hills, anti-termite pipeline gachibowli, anti-termite pipeline hitec city, anti-termite pipeline kondapur, anti-termite pipeline madhapur, anti-termite pipeline secunderabad, anti-termite pipeline begumpet, anti-termite pipeline somajiguda, anti-termite pipeline abids, anti-termite pipeline kukatpally, anti-termite pipeline miyapur, anti-termite pipeline manikonda, anti-termite pipeline nizamabad, anti-termite pipeline karimnagar, anti-termite pipeline kamareddy, anti-termite pipeline adilabad, termite pipeline system, chemical injection termite control, termite barrier installation',
+    canonical: '/services/anti-termite-pipeline',
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Anti-Termite Pipeline Service",
+      "description": "Professional anti-termite pipeline installation and treatment to protect properties from termite infestation",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Durga Bhavani Pest Control Service"
+      },
+      "areaServed": ["Hyderabad", "Nizamabad", "Karimnagar", "Kamareddy", "Adilabad"],
+      "serviceType": "Termite Control"
+    }
+  },
+
   privacy: {
     title: 'Privacy Policy | Durga Bhavani Pest Control Service',
     description: 'Privacy policy for Durga Bhavani Pest Control Service. Learn how we collect, use, and protect your personal information.',

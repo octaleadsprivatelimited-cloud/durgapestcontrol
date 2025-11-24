@@ -121,6 +121,12 @@ export default function Home() {
 							imageSrc="/images/COMMERCIAL PEST CONTROL.webp"
 							whatsappLink="https://wa.me/918790128760?text=Hi, I need Residential, Commercial & Factory pest control service. Please provide more details and quote." 
 						/>
+						<ServiceCard 
+							title="Anti-Termite Pipeline Service" 
+							excerpt="Professional anti-termite pipeline installation and treatment for long-term protection" 
+							imageSrc="/images/TERMITE CONTROL1.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Anti-Termite Pipeline Service. Please provide more details and quote." 
+						/>
 					</div>
 					<div className="services-cta slide-up-fade">
 						<Link to="/services" className="btn btn-outline continuous-pulse">View All Services</Link>

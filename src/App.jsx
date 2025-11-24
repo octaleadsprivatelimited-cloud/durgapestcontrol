@@ -36,6 +36,7 @@ import FoggingService from './pages/services/FoggingService.jsx'
 import CinemaShoppingMalls from './pages/services/CinemaShoppingMalls.jsx'
 import PreConstructionService from './pages/services/PreConstructionService.jsx'
 import ResidentialCommercialFactory from './pages/services/ResidentialCommercialFactory.jsx'
+import AntiTermitePipeline from './pages/services/AntiTermitePipeline.jsx'
 
 export default function App() {
 	const location = useLocation();
@@ -78,6 +79,7 @@ export default function App() {
 					<Route path="/services/cinema-shopping-malls" element={<CinemaShoppingMalls />} />
 					<Route path="/services/pre-construction-service" element={<PreConstructionService />} />
 					<Route path="/services/residential-commercial-factory" element={<ResidentialCommercialFactory />} />
+					<Route path="/services/anti-termite-pipeline" element={<AntiTermitePipeline />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/blog" element={<Blog />} />
 					<Route path="/blog/:slug" element={<BlogArticle />} />
