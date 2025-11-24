@@ -16,6 +16,7 @@ const commercialServices = [
 	{ slug: 'hotel-pest-control', title: 'Hotel Pest Control', excerpt: 'Comprehensive pest management for hotels and hospitality businesses.' },
 	{ slug: 'retail-pest-control', title: 'Retail Pest Control', excerpt: 'Pest control solutions for retail stores and shopping centers.' },
 	{ slug: 'sanitization', title: 'Sanitization Services', excerpt: 'Deep cleaning and sanitization for commercial properties.' },
+	{ slug: 'water-proofing', title: 'Building Water Proofing', excerpt: 'Professional water proofing solutions for terraces, basements, bathrooms, and walls.' },
 ]
 
 import SEO from '../components/SEO.jsx'
@@ -106,9 +107,9 @@ export default function Services() {
 						<h2>Need Professional Pest Control?</h2>
 						<p>Get a free inspection and quote today. Our experts are ready to help you create a pest-free environment.</p>
 						<div className="cta-actions">
-							<a href="tel:+919700299977" className="btn btn-primary">
+							<a href="tel:+918790128760" className="btn btn-primary">
 								<span className="btn-icon">📞</span>
-								Call +91 9700299977
+								Call +91 8790128760
 							</a>
 							<a href="/contact" className="btn btn-secondary">
 								<span className="btn-icon">📝</span>

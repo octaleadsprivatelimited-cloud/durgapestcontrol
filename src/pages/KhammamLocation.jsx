@@ -3,24 +3,22 @@ import SEO from '../components/SEO.jsx'
 
 export default function KhammamLocation() {
   const seoData = {
-    title: 'Best Pest Control Services in Khammam | Jayanagar Colony | Famous Pest Control',
-    description: '🏆 #1 Pest Control Company in Khammam, Telangana. Located at Jayanagar Colony, Road 10. Termite control, cockroach treatment, bed bug removal, rodent control. 24/7 emergency service. 30-day guarantee. Call +91 97002 99977',
+    title: 'Best Pest Control Services in Khammam | Jayanagar Colony | Durga Bhavani Pest Control Service',
+    description: '🏆 #1 Pest Control Company in Hyderabad. Termite control, cockroach treatment, bed bug removal, rodent control. 24/7 emergency service. 30-day guarantee. Call +91 8790128760',
     keywords: 'pest control khammam, best pest control khammam, termite control khammam, cockroach control khammam, bed bug treatment khammam, rodent control khammam, mosquito control khammam, commercial pest control khammam, residential pest control khammam, emergency pest control khammam, pest control jayanagar khammam, pest control road 10 khammam, pest control kothagudem, pest control bhadrachalam, pest control palvancha, pest control wyra, pest control near me khammam, exterminator khammam, pest control company khammam, professional pest control khammam',
     canonical: '/khammam-location',
     structuredData: {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Famous Pest Control Services - Khammam",
+      "name": "Durga Bhavani Pest Control Service - Khammam",
       "description": "Professional pest control services in Khammam, Telangana",
       "url": "https://famouspestcontrol.com/khammam-location",
-      "telephone": "+919700299977",
-      "email": "info@famouspestcontrol.com",
+      "telephone": "+918790128760",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "H.no 14-3-106/1/A/1, Jayanagar colony, Road 10",
-        "addressLocality": "Khammam",
+        "streetAddress": "Plot:36, Raghavendra colony Kukatpally",
+        "addressLocality": "Hyderabad",
         "addressRegion": "Telangana",
-        "postalCode": "507002",
         "addressCountry": "IN"
       },
       "geo": {
@@ -115,8 +113,8 @@ export default function KhammamLocation() {
           <h1>Pest Control Services in Khammam</h1>
           <p>Professional pest control solutions for Khammam residents and businesses</p>
           <div className="location-info">
-            <p><strong>📍 Address:</strong> H.no 14-3-106/1/A/1, Jayanagar colony, Road 10, Khammam - 507002</p>
-            <p><strong>📞 Phone:</strong> +91 97002 99977</p>
+            <p><strong>📍 Address:</strong> Plot:36, Raghavendra colony Kukatpally, Hyderabad</p>
+            <p><strong>📞 Phone:</strong> +91 8790128760, +91 9542681438</p>
             <p><strong>🕒 Hours:</strong> 9:00 AM - 6:00 PM (7 days a week)</p>
           </div>
         </div>
@@ -232,8 +230,8 @@ export default function KhammamLocation() {
           <h2>Need Pest Control in Khammam?</h2>
           <p>Call us now for a free inspection and quote. We serve all areas in Khammam district with professional pest control solutions.</p>
           <div className="cta-buttons">
-            <a href="tel:+919700299977" className="btn btn-primary">
-              📞 Call +91 97002 99977
+            <a href="tel:+918790128760" className="btn btn-primary">
+              📞 Call +91 8790128760
             </a>
             <Link to="/contact" className="btn btn-secondary">
               📝 Get Free Quote
@@ -246,11 +244,9 @@ export default function KhammamLocation() {
         <div className="container">
           <h2>Find Us in Khammam</h2>
           <div className="map-info">
-            <p><strong>Address:</strong> H.no 14-3-106/1/A/1, Jayanagar colony, Road 10, Khammam - 507002</p>
-            <p><strong>Landmark:</strong> Near Jayanagar colony main road</p>
-            <p><strong>Pincode:</strong> 507002</p>
+            <p><strong>Address:</strong> Plot:36, Raghavendra colony Kukatpally, Hyderabad</p>
             <a 
-              href="https://maps.google.com/?q=H.no+14-3-106/1/A/1,+Jayanagar+colony,+Road+10,+Khammam+-+507002" 
+              href="https://maps.google.com/?q=Plot+36,+Raghavendra+colony+Kukatpally,+Hyderabad" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-outline"

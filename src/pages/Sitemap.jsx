@@ -73,13 +73,12 @@ export default function Sitemap() {
 									<li>Abids</li>
 								</ul>
 								
-								<h3>Khammam District</h3>
+								<h3>Other Service Areas</h3>
 								<ul className="area-links">
-									<li>Khammam City</li>
-									<li>Kothagudem</li>
-									<li>Bhadrachalam</li>
-									<li>Palvancha</li>
-									<li>Wyra</li>
+									<li>Nizamabad</li>
+									<li>Karimnagar</li>
+									<li>Kamareddy</li>
+									<li>Adilabad</li>
 								</ul>
 							</div>
 						</div>
@@ -98,8 +97,7 @@ export default function Sitemap() {
 						<div className="sitemap-section">
 							<h2>Contact Information</h2>
 							<div className="contact-details">
-								<p><strong>Phone:</strong> +91 97002 99977</p>
-								<p><strong>Email:</strong> info@famouspestcontrol.com</p>
+								<p><strong>Phone:</strong> +91 8790128760</p>
 								<p><strong>Emergency:</strong> 24/7 Available</p>
 								<p><strong>Business Hours:</strong> 9:00 AM - 6:00 PM</p>
 							</div>
@@ -109,7 +107,7 @@ export default function Sitemap() {
 					{/* Additional Information */}
 					<div className="sitemap-info">
 						<h2>About Our Services</h2>
-						<p>Famous Pest Control Services has been serving Hyderabad and surrounding areas since 1992. We provide comprehensive pest control solutions for residential and commercial properties.</p>
+						<p>Durga Bhavani Pest Control Service has been serving Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad since 2003. We provide comprehensive pest control solutions for residential and commercial properties.</p>
 						
 						<h3>Our Expertise</h3>
 						<ul>
@@ -121,7 +119,7 @@ export default function Sitemap() {
 						</ul>
 
 						<h3>Service Coverage</h3>
-						<p>We provide pest control services across Hyderabad and Khammam district, ensuring comprehensive coverage for all your pest control needs.</p>
+						<p>We provide pest control services across Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad, ensuring comprehensive coverage for all your pest control needs.</p>
 					</div>
 				</div>
 			</section>

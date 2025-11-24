@@ -110,8 +110,7 @@ export default function Terms() {
 						<h2>Contact Information</h2>
 						<p>For questions about these terms, contact us:</p>
 						<div className="contact-info">
-							<p><strong>Phone:</strong> +91 97002 99977</p>
-							<p><strong>Email:</strong> info@famouspestcontrol.com</p>
+							<p><strong>Phone:</strong> +91 8790128760</p>
 							<p><strong>Address:</strong> Hyderabad, Telangana, India</p>
 						</div>
 					</div>

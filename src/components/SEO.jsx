@@ -14,7 +14,7 @@ const SEO = ({
   noindex = false,
   nofollow = false
 }) => {
-  const siteName = 'Famous Pest Control Services'
+  const siteName = 'Durga Bhavani Pest Control Service'
   const siteUrl = 'https://famouspestcontrol.com'
   const defaultImage = `${siteUrl}/images/og-image.jpg`
   

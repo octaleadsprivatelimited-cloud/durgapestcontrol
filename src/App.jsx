@@ -1,8 +1,6 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { HelmetProvider } from 'react-helmet-async'
-import { Analytics } from '@vercel/analytics/react'
-import { SpeedInsights } from '@vercel/speed-insights/react'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import FloatingButtons from './components/FloatingButtons.jsx'
@@ -15,7 +13,9 @@ import Contact from './pages/Contact.jsx'
 import Privacy from './pages/Privacy.jsx'
 import Terms from './pages/Terms.jsx'
 import Sitemap from './pages/Sitemap.jsx'
-import KhammamLocation from './pages/KhammamLocation.jsx'
+import FAQ from './pages/FAQ.jsx'
+import Blog from './pages/Blog.jsx'
+import BlogArticle from './pages/blog/BlogArticle.jsx'
 import NotFound from './pages/NotFound.jsx'
 import { initAllAnimations } from './utils/animations.js'
 // Service Pages
@@ -31,6 +31,7 @@ import WarehousePestControl from './pages/services/WarehousePestControl.jsx'
 import HotelPestControl from './pages/services/HotelPestControl.jsx'
 import RetailPestControl from './pages/services/RetailPestControl.jsx'
 import Sanitization from './pages/services/Sanitization.jsx'
+import WaterProofing from './pages/services/WaterProofing.jsx'
 
 export default function App() {
 	const location = useLocation();
@@ -49,8 +50,6 @@ export default function App() {
 		<HelmetProvider>
 			<div className="app-root">
 				<GoogleAnalytics />
-				<Analytics />
-				<SpeedInsights />
 				<Header />
 				<main className="main-content">
 				<Routes>
@@ -70,12 +69,15 @@ export default function App() {
 					<Route path="/services/hotel-pest-control" element={<HotelPestControl />} />
 					<Route path="/services/retail-pest-control" element={<RetailPestControl />} />
 					<Route path="/services/sanitization" element={<Sanitization />} />
+					<Route path="/services/water-proofing" element={<WaterProofing />} />
 					<Route path="/about" element={<About />} />
+					<Route path="/blog" element={<Blog />} />
+					<Route path="/blog/:slug" element={<BlogArticle />} />
+					<Route path="/faq" element={<FAQ />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/privacy" element={<Privacy />} />
 					<Route path="/terms" element={<Terms />} />
 					<Route path="/sitemap" element={<Sitemap />} />
-					<Route path="/khammam-location" element={<KhammamLocation />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</main>

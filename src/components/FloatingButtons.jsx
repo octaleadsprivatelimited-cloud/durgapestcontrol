@@ -2,17 +2,17 @@ import { trackPhoneCall } from './GoogleAnalytics.jsx'
 
 export default function FloatingButtons() {
 	const handlePhoneClick = () => {
-		trackPhoneCall('+919700299977')
+		trackPhoneCall('+918790128760')
 	}
 
 	return (
 		<div className="floating-contact-panel">
 			{/* Call Button */}
 			<a 
-				href="tel:+919700299977" 
+				href="tel:+918790128760" 
 				className="contact-btn call-btn"
 				aria-label="Call Us"
-				title="Call +91 9700299977"
+				title="Call +91 8790128760"
 				onClick={handlePhoneClick}
 			>
 				<div className="contact-btn-icon">
@@ -22,13 +22,13 @@ export default function FloatingButtons() {
 				</div>
 				<div className="contact-btn-content">
 					<span className="contact-btn-title">Call Now</span>
-					<span className="contact-btn-subtitle">+91 9700299977</span>
+					<span className="contact-btn-subtitle">+91 8790128760</span>
 				</div>
 			</a>
 
 			{/* WhatsApp Button */}
 			<a 
-				href="https://wa.me/919700299977?text=Hi, I need pest control services" 
+				href="https://wa.me/918790128760?text=Hi, I need pest control services" 
 				className="contact-btn whatsapp-btn"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -46,9 +46,9 @@ export default function FloatingButtons() {
 				</div>
 			</a>
 
-			{/* Hyderabad Location Button */}
+			{/* Location Button */}
 			<a 
-				href="https://maps.google.com/?q=H.no+12-1-331/82/B,+Datteraya+colony,+Asif+Nagar,+Hyderabad+-+500028" 
+				href="https://maps.google.com/?q=Plot+36,+Raghavendra+colony+Kukatpally,+Hyderabad" 
 				className="contact-btn maps-btn hyderabad-btn"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -56,35 +56,13 @@ export default function FloatingButtons() {
 				title="Find our Hyderabad office"
 			>
 				<div className="contact-btn-icon">
-					<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="map-icon">
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="map-icon" style={{display: 'block', visibility: 'visible', opacity: 1}}>
 						<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
 					</svg>
-					<img src="/images/hyderabad2.jpg" alt="Hyderabad" width="20" height="20" className="location-image" />
 				</div>
 				<div className="contact-btn-content">
 					<span className="contact-btn-title">Hyderabad</span>
-					<span className="contact-btn-subtitle">Asif Nagar</span>
-				</div>
-			</a>
-
-			{/* Khammam Location Button */}
-			<a 
-				href="https://maps.google.com/?q=H.no+14-3-106/1/A/1,+Jayanagar+colony,+Road+number+10,+Khammam+-+507002" 
-				className="contact-btn maps-btn khammam-btn"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="Khammam Office"
-				title="Find our Khammam office"
-			>
-				<div className="contact-btn-icon">
-					<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="map-icon">
-						<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-					</svg>
-					<img src="/images/khammam1.png" alt="Khammam" width="20" height="20" className="location-image" />
-				</div>
-				<div className="contact-btn-content">
-					<span className="contact-btn-title">Khammam</span>
-					<span className="contact-btn-subtitle">Jayanagar</span>
+					<span className="contact-btn-subtitle">Kukatpally</span>
 				</div>
 			</a>
 		</div>

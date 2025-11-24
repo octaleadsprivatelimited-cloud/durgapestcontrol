@@ -122,9 +122,8 @@ The contact form uses Formspree for professional form handling:
 ## 🚀 Deployment
 
 ### **Static Hosting (Recommended)**
-- **Netlify**: Connect GitHub for automatic deployments
+- **Netlify**: Connect for automatic deployments
 - **Vercel**: Zero-configuration deployment
-- **GitHub Pages**: Automated deployment with GitHub Actions
 
 ### **Traditional Hosting**
 1. Run `npm run build`

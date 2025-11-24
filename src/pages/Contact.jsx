@@ -17,6 +17,7 @@ export default function Contact() {
         'Bed Bug Treatment',
         'Rodent Control',
         'Mosquito Control',
+        'Building Water Proofing',
         'Emergency Service',
         'Other'
     ]
@@ -52,10 +53,10 @@ export default function Contact() {
                 return
             }
             const subject = encodeURIComponent(`Pest Control Quote Request - ${form.service}`)
-            const body = encodeURIComponent(`Name: ${form.name}\nPhone: ${form.phone}\nEmail: ${form.email}\nService: ${form.service}\n\nMessage: ${form.message}`)
-            window.location.href = `mailto:famouspestcontrolservices77@gmail.com?subject=${subject}&body=${body}`
+            const body = encodeURIComponent(`Name: ${form.name}\nPhone: ${form.phone}\nService: ${form.service}\n\nMessage: ${form.message}`)
+            window.location.href = `https://wa.me/918790128760?text=${encodeURIComponent(`Pest Control Quote Request - ${form.service}\n\nName: ${form.name}\nPhone: ${form.phone}\nService: ${form.service}\n\nMessage: ${form.message}`)}`
         } catch (err) {
-            alert('Unable to submit the form right now. Please call us at +91 9700299977.')
+            alert('Unable to submit the form right now. Please call us at +91 8790128760.')
         } finally {
             setSubmitting(false)
         }
@@ -80,29 +81,23 @@ export default function Contact() {
                         <div className="contact-card">
                             <div className="contact-card-icon">📞</div>
                             <h3>Call Us</h3>
-                            <p><a href="tel:+919700299977">+91 9700299977</a></p>
+                            <p><a href="tel:+918790128760">+91 8790128760</a></p>
+                            <p><a href="tel:+919542681438">+91 9542681438</a></p>
                             <span>Mon-Sat: 9.00-18.00</span>
                         </div>
                         
                         <div className="contact-card">
-                            <div className="contact-card-icon">✉️</div>
-                            <h3>Email Us</h3>
-                            <p><a href="mailto:famouspestcontrolservices77@gmail.com">famouspestcontrolservices77@gmail.com</a></p>
-                            <span>Response within 2 hours</span>
+                            <div className="contact-card-icon">💬</div>
+                            <h3>WhatsApp Us</h3>
+                            <p><a href="https://wa.me/918790128760" target="_blank" rel="noopener noreferrer">+91 8790128760</a></p>
+                            <span>Quick response</span>
                         </div>
                         
                         <div className="contact-card">
                             <div className="contact-card-icon">📍</div>
-                            <h3>Hyderabad Office</h3>
-                            <p>H.no 12-1-331/82/B, Datteraya colony, Asif Nagar - 500028</p>
-                            <a href="https://maps.google.com/?q=H.no+12-1-331/82/B,+Datteraya+colony,+Asif+Nagar,+Hyderabad+-+500028" target="_blank" rel="noopener noreferrer" className="map-link">Get Directions</a>
-                        </div>
-                        
-                        <div className="contact-card">
-                            <div className="contact-card-icon">📍</div>
-                            <h3>Khammam Office</h3>
-                            <p>H.no 14-3-106/1/A/1, Jayanagar colony, Road 10 - 507002</p>
-                            <a href="https://maps.google.com/?q=H.no+14-3-106/1/A/1,+Jayanagar+colony,+Road+number+10,+Khammam+-+507002" target="_blank" rel="noopener noreferrer" className="map-link">Get Directions</a>
+                            <h3>Our Office</h3>
+                            <p>Plot:36, Raghavendra colony Kukatpally, Hyderabad</p>
+                            <a href="https://maps.google.com/?q=Plot+36,+Raghavendra+colony+Kukatpally,+Hyderabad" target="_blank" rel="noopener noreferrer" className="map-link">Get Directions</a>
                         </div>
                     </div>
 
@@ -242,11 +237,11 @@ export default function Contact() {
                         <h2>Need Immediate Help?</h2>
                         <p>For urgent pest problems, call us now for same-day service</p>
                         <div className="cta-actions">
-                            <a href="tel:+919700299977" className="btn btn-primary">
+                            <a href="tel:+918790128760" className="btn btn-primary">
                                 <span className="btn-icon">📞</span>
-                                Call +91 9700299977
+                                Call +91 8790128760
                             </a>
-                            <a href="https://wa.me/919700299977" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                            <a href="https://wa.me/918790128760" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                                 <span className="btn-icon">💬</span>
                                 WhatsApp Us
                             </a>

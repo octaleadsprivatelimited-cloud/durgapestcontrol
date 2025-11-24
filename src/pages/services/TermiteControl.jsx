@@ -105,8 +105,8 @@ export default function TermiteControl() {
 					<h2>Ready to Protect Your Property from Termites?</h2>
 					<p>Get a free termite inspection and quote today. Our experts are ready to help you create a termite-free environment.</p>
 					<div className="cta-buttons">
-						<a href="tel:+919700299977" className="btn btn-primary">
-							Call +91 9700299977
+						<a href="tel:+918790128760" className="btn btn-primary">
+							Call +91 8790128760
 						</a>
 						<Link to="/contact" className="btn btn-secondary">
 							Get Free Quote

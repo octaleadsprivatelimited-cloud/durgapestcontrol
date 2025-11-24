@@ -8,7 +8,7 @@ export default function About() {
 			{/* Page Header */}
 			<section className="page-header">
 				<div className="container">
-					<h1>About Famous Pest Control Services</h1>
+					<h1>About Durga Bhavani Pest Control Service</h1>
 					<p>Your trusted partner in pest management for over 20 years</p>
 				</div>
 			</section>
@@ -20,7 +20,7 @@ export default function About() {
 						<div className="overview-text">
 							<h2>Leading Pest Control Experts in Hyderabad</h2>
 							<p>
-								Since 2003, Famous Pest Control Services has been the premier pest management company serving residential and commercial properties across Hyderabad. We combine decades of experience with cutting-edge technology to deliver safe, effective, and environmentally responsible pest control solutions.
+								Since 2003, Durga Bhavani Pest Control Service has been the premier pest management company serving residential and commercial properties across Hyderabad. We combine decades of experience with cutting-edge technology to deliver safe, effective, and environmentally responsible pest control solutions.
 							</p>
 							<p>
 								Our commitment to excellence has made us the trusted choice for over 5,000 satisfied customers. We pride ourselves on our professional approach, advanced treatment methods, and unwavering dedication to customer satisfaction.
@@ -213,7 +213,7 @@ export default function About() {
 			<section className="why-choose-section">
 				<div className="container">
 					<div className="section-header">
-						<h2>Why Choose Famous Pest Control Services?</h2>
+						<h2>Why Choose Durga Bhavani Pest Control Service?</h2>
 						<p>Discover what sets us apart as Hyderabad's leading pest control experts</p>
 					</div>
 					<div className="advantages-grid">
@@ -366,13 +366,13 @@ export default function About() {
 				<div className="container">
 					<div className="section-header">
 						<h2>Our Service Coverage</h2>
-						<p>Comprehensive pest control services across Hyderabad and Khammam districts</p>
+						<p>Comprehensive pest control services across Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad</p>
 					</div>
 					<div className="coverage-content">
 						<div className="coverage-intro">
 							<h3>Complete Coverage Across Our Service Areas</h3>
 							<p>
-								We provide comprehensive pest control services throughout Hyderabad and Khammam districts. Our extensive coverage ensures that no matter where you are located, we can provide prompt, professional pest control solutions.
+								We provide comprehensive pest control services throughout Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Our extensive coverage ensures that no matter where you are located, we can provide prompt, professional pest control solutions.
 							</p>
 						</div>
 						<div className="areas-grid">
@@ -380,30 +380,46 @@ export default function About() {
 								<div className="area-icon">🏙️</div>
 								<h3>Hyderabad</h3>
 								<div className="area-locations">
+									<span className="location-tag">Kukatpally</span>
 									<span className="location-tag">Jubilee Hills</span>
 									<span className="location-tag">HITEC City</span>
 									<span className="location-tag">Gachibowli</span>
 									<span className="location-tag">Kondapur</span>
 									<span className="location-tag">Secunderabad</span>
-									<span className="location-tag">Kukatpally</span>
 									<span className="location-tag">Madhapur</span>
-									<span className="location-tag">Charminar</span>
-									<span className="location-tag">Asif Nagar</span>
-									<span className="location-tag">Uppal</span>
-									<span className="location-tag">BHEL</span>
 									<span className="location-tag">All Areas</span>
 								</div>
 							</div>
 							<div className="area-card">
 								<div className="area-icon">🏢</div>
-								<h3>Khammam</h3>
+								<h3>Nizamabad</h3>
 								<div className="area-locations">
-									<span className="location-tag">Khammam City</span>
-									<span className="location-tag">Jayanagar</span>
-									<span className="location-tag">Kothagudem</span>
-									<span className="location-tag">Bhadrachalam</span>
-									<span className="location-tag">Paloncha</span>
-									<span className="location-tag">Sathupally</span>
+									<span className="location-tag">Nizamabad City</span>
+									<span className="location-tag">All Areas</span>
+								</div>
+							</div>
+							<div className="area-card">
+								<div className="area-icon">🏛️</div>
+								<h3>Karimnagar</h3>
+								<div className="area-locations">
+									<span className="location-tag">Karimnagar City</span>
+									<span className="location-tag">All Areas</span>
+								</div>
+							</div>
+							<div className="area-card">
+								<div className="area-icon">🏘️</div>
+								<h3>Kamareddy</h3>
+								<div className="area-locations">
+									<span className="location-tag">Kamareddy City</span>
+									<span className="location-tag">All Areas</span>
+								</div>
+							</div>
+							<div className="area-card">
+								<div className="area-icon">🏘️</div>
+								<h3>Adilabad</h3>
+								<div className="area-locations">
+									<span className="location-tag">Adilabad City</span>
+									<span className="location-tag">All Areas</span>
 								</div>
 							</div>
 							<div className="area-card">
@@ -429,9 +445,9 @@ export default function About() {
 						<h2>Ready to Get Started?</h2>
 						<p>Contact us today for a free inspection and quote. Our experts are ready to help you create a pest-free environment.</p>
 						<div className="cta-actions">
-							<a href="tel:+919700299977" className="btn btn-primary">
+							<a href="tel:+918790128760" className="btn btn-primary">
 								<span className="btn-icon">📞</span>
-								Call +91 9700299977
+								Call +91 8790128760
 							</a>
 							<a href="/contact" className="btn btn-secondary">
 								<span className="btn-icon">📝</span>

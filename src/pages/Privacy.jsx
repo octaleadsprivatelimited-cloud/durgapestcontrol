@@ -71,8 +71,7 @@ export default function Privacy() {
 						<h2>Contact Us</h2>
 						<p>If you have any questions about this Privacy Policy, please contact us:</p>
 						<div className="contact-info">
-							<p><strong>Phone:</strong> +91 97002 99977</p>
-							<p><strong>Email:</strong> info@famouspestcontrol.com</p>
+							<p><strong>Phone:</strong> +91 8790128760</p>
 							<p><strong>Address:</strong> Hyderabad, Telangana, India</p>
 						</div>
 					</div>

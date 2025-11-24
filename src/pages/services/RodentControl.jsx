@@ -97,8 +97,8 @@ export default function RodentControl() {
 					<h2>Ready to Eliminate Rodents from Your Property?</h2>
 					<p>Get professional rodent control treatment today. Our experts are ready to help you create a rodent-free environment.</p>
 					<div className="cta-buttons">
-						<a href="tel:+919700299977" className="btn btn-primary">
-							Call +91 9700299977
+						<a href="tel:+918790128760" className="btn btn-primary">
+							Call +91 8790128760
 						</a>
 						<Link to="/contact" className="btn btn-secondary">
 							Get Free Quote

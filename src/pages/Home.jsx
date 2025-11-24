@@ -15,11 +15,11 @@ export default function Home() {
 				<div className="container hero-content">
 					<div className="hero-text">
 						<div className="hero-welcome slide-up-fade">Welcome to</div>
-						<h1 className="slide-up-fade">Famous Pest Control Services</h1>
+						<h1 className="slide-up-fade">Durga Bhavani Pest Control Service</h1>
 						<div className="hero-tagline slide-up-fade">WE PROTECT YOUR HOME OR BUSINESS FROM UNWANTED GUESTS</div>
-						<div className="hero-subtitle slide-up-fade">Quality Dependable Service Since 1992</div>
+						<div className="hero-subtitle slide-up-fade">Quality Dependable Service Since 2003 | Serving Hyderabad, Nizamabad, Karimnagar, Kamareddy & Adilabad</div>
 						<div className="hero-actions slide-up-fade">
-							<a href="tel:+919700299977" className="btn btn-primary continuous-pulse">
+							<a href="tel:+918790128760" className="btn btn-primary continuous-pulse">
 								<span className="btn-icon">📞</span>
 								Contact Us
 							</a>
@@ -37,15 +37,66 @@ export default function Home() {
 						<p>Comprehensive pest management solutions for residential and commercial properties</p>
 					</div>
 					<div className="services-grid-3x3 stagger-reveal">
-						<ServiceCard title="Termite Control" excerpt="Complete termite inspection and treatment for your home" to="/services/termite-control" />
-						<ServiceCard title="Cockroach Control" excerpt="Effective cockroach elimination and prevention" to="/services/cockroach-control" />
-						<ServiceCard title="Bed Bug Treatment" excerpt="Professional bed bug removal and prevention" to="/services/bed-bug-control" />
-						<ServiceCard title="Rodent Control" excerpt="Safe rat and mouse removal and prevention" to="/services/rodent-control" />
-						<ServiceCard title="Ant Control" excerpt="Eco-friendly ant elimination and prevention" to="/services/ant-control" />
-						<ServiceCard title="Mosquito Control" excerpt="Mosquito fogging and prevention services" to="/services/mosquito-control" />
-						<ServiceCard title="Office Pest Control" excerpt="Regular pest management for office spaces" to="/services/commercial-pest-control" />
-						<ServiceCard title="Restaurant Pest Control" excerpt="Food-safe pest control for restaurants" to="/services/restaurant-pest-control" />
-						<ServiceCard title="Warehouse Pest Control" excerpt="Industrial pest management solutions" to="/services/warehouse-pest-control" />
+						<ServiceCard 
+							title="Termite Control" 
+							excerpt="Complete termite inspection and treatment for your home" 
+							imageSrc="/images/TERMITE CONTROL1.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Termite Control service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Cockroach Control" 
+							excerpt="Effective cockroach elimination and prevention" 
+							imageSrc="/images/COCKROACH CONTROL1.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Cockroach Control service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Bed Bug Treatment" 
+							excerpt="Professional bed bug removal and prevention" 
+							imageSrc="/images/Bed Bug Treatment.avif"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Bed Bug Treatment service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Rodent Control" 
+							excerpt="Safe rat and mouse removal and prevention" 
+							imageSrc="/images/RODENT CONTROL.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Rodent Control service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Ant Control" 
+							excerpt="Eco-friendly ant elimination and prevention" 
+							imageSrc="/images/ANT CONTROL1.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Ant Control service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Mosquito Control" 
+							excerpt="Mosquito fogging and prevention services" 
+							imageSrc="/images/MOSQUITO CONTROL1.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Mosquito Control service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Office Pest Control" 
+							excerpt="Regular pest management for office spaces" 
+							imageSrc="/images/Office Pest Control.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Office Pest Control service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Restaurant Pest Control" 
+							excerpt="Food-safe pest control for restaurants" 
+							imageSrc="/images/Restaurant Pest Control.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Restaurant Pest Control service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Warehouse Pest Control" 
+							excerpt="Industrial pest management solutions" 
+							imageSrc="/images/Warehouse Pest Control.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Warehouse Pest Control service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Building Water Proofing" 
+							excerpt="Professional water proofing for terraces, basements, and walls" 
+							imageSrc="/images/hero-bg.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Building Water Proofing service. Please provide more details and quote." 
+						/>
 					</div>
 					<div className="services-cta slide-up-fade">
 						<Link to="/services" className="btn btn-outline continuous-pulse">View All Services</Link>
@@ -81,7 +132,7 @@ export default function Home() {
 			<section className="why-choose-section animate-on-scroll">
 				<div className="container">
 					<div className="section-header slide-up-fade">
-						<h2>Why Choose Famous Pest Control Services?</h2>
+						<h2>Why Choose Durga Bhavani Pest Control Service?</h2>
 						<p>Discover what sets us apart as Hyderabad's leading pest control experts</p>
 					</div>
 					<div className="advantages-grid stagger-reveal">
@@ -174,9 +225,9 @@ export default function Home() {
 						<h2>Ready to Get Rid of Pests?</h2>
 						<p>Get a free inspection and quote today. Our experts are ready to help you create a pest-free environment.</p>
 						<div className="cta-actions stagger-reveal">
-							<a href="tel:+919700299977" className="btn btn-primary continuous-pulse hover-lift">
+							<a href="tel:+918790128760" className="btn btn-primary continuous-pulse hover-lift">
 								<span className="btn-icon">📞</span>
-								Call +91 9700299977
+								Call +91 8790128760
 							</a>
 							<Link to="/contact" className="btn btn-secondary continuous-pulse hover-lift">
 								<span className="btn-icon">📝</span>
