@@ -82,7 +82,7 @@ export default function Home() {
 						<ServiceCard 
 							title="Restaurant Pest Control" 
 							excerpt="Food-safe pest control for restaurants" 
-							imageSrc="/images/Restaurant Pest Control.webp"
+							imageSrc="/images/restaurant-pest-control.jpg"
 							whatsappLink="https://wa.me/918790128760?text=Hi, I need Restaurant Pest Control service. Please provide more details and quote." 
 						/>
 						<ServiceCard 
@@ -94,19 +94,19 @@ export default function Home() {
 						<ServiceCard 
 							title="Building Water Proofing" 
 							excerpt="Professional water proofing for terraces, basements, and walls" 
-							imageSrc="/images/hero-bg.webp"
+							imageSrc="/images/building-waterproofing.jpg"
 							whatsappLink="https://wa.me/918790128760?text=Hi, I need Building Water Proofing service. Please provide more details and quote." 
 						/>
 						<ServiceCard 
 							title="Fogging Service" 
 							excerpt="Professional fogging for mosquito control, disinfection, and pest elimination" 
-							imageSrc="/images/MOSQUITO CONTROL1.webp"
+							imageSrc="/images/fogging-service.jpg"
 							whatsappLink="https://wa.me/918790128760?text=Hi, I need Fogging Service. Please provide more details and quote." 
 						/>
 						<ServiceCard 
 							title="Cinema & Shopping Malls" 
 							excerpt="Specialized pest control for cinemas, shopping malls, and entertainment complexes" 
-							imageSrc="/images/COMMERCIAL PEST CONTROL.webp"
+							imageSrc="/images/cinema-shopping-malls.jpg"
 							whatsappLink="https://wa.me/918790128760?text=Hi, I need Cinema & Shopping Malls pest control service. Please provide more details and quote." 
 						/>
 						<ServiceCard 
@@ -118,13 +118,13 @@ export default function Home() {
 						<ServiceCard 
 							title="Residential, Commercial & Factory" 
 							excerpt="Comprehensive pest control for residential, commercial, and industrial properties" 
-							imageSrc="/images/COMMERCIAL PEST CONTROL.webp"
+							imageSrc="/images/residential-commercial-factory.jpg"
 							whatsappLink="https://wa.me/918790128760?text=Hi, I need Residential, Commercial & Factory pest control service. Please provide more details and quote." 
 						/>
 						<ServiceCard 
 							title="Anti-Termite Pipeline Service" 
 							excerpt="Professional anti-termite pipeline installation and treatment for long-term protection" 
-							imageSrc="/images/TERMITE CONTROL1.webp"
+							imageSrc="/images/anti-termite-pipeline.webp"
 							whatsappLink="https://wa.me/918790128760?text=Hi, I need Anti-Termite Pipeline Service. Please provide more details and quote." 
 						/>
 					</div>
