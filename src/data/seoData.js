@@ -401,7 +401,7 @@ export const seoData = {
         "@type": "LocalBusiness",
         "name": "Durga Bhavani Pest Control Service"
       },
-      "areaServed": ["Hyderabad"],
+      "areaServed": ["Hyderabad", "Nizamabad", "Karimnagar", "Kamareddy", "Adilabad"],
       "serviceType": "Water Proofing"
     }
   },
@@ -464,6 +464,71 @@ export const seoData = {
     description: 'Expert blog articles on pest control and water proofing services in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Learn about termite control, cockroach treatment, bed bug removal, water proofing, and more.',
     keywords: 'pest control blog, water proofing blog, termite control tips, cockroach control guide, bed bug treatment blog, pest control hyderabad blog, pest control nizamabad, pest control karimnagar, pest control kamareddy, pest control adilabad, water proofing articles, pest control advice',
     canonical: '/blog'
+  },
+
+  // Blog Article SEO Data
+  blogTermiteControl: {
+    title: 'Complete Guide to Termite Control in Hyderabad: Prevention and Treatment | Durga Bhavani Pest Control Service',
+    description: 'Complete guide to termite control in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Learn about termite prevention, treatment methods, signs of infestation, and when to call professionals. Expert tips from Durga Bhavani Pest Control Service.',
+    keywords: 'termite control guide hyderabad, termite prevention hyderabad, termite treatment methods, termite infestation signs, termite control tips, termite control nizamabad, termite control karimnagar, termite control kamareddy, termite control adilabad, subterranean termites, drywood termites, termite damage prevention',
+    canonical: '/blog/complete-guide-termite-control-hyderabad',
+    ogImage: '/images/TERMITE CONTROL1.webp'
+  },
+
+  blogCockroachControl: {
+    title: 'Effective Cockroach Control Methods for Homes and Businesses | Durga Bhavani Pest Control Service',
+    description: 'Discover proven cockroach control methods used by professionals in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Learn about German cockroach treatment, prevention strategies, and when to seek expert help.',
+    keywords: 'cockroach control methods hyderabad, german cockroach treatment, cockroach prevention tips, cockroach elimination guide, cockroach control nizamabad, cockroach control karimnagar, cockroach control kamareddy, cockroach control adilabad, professional cockroach control, cockroach infestation treatment',
+    canonical: '/blog/cockroach-control-methods-hyderabad',
+    ogImage: '/images/COCKROACH CONTROL1.webp'
+  },
+
+  blogBedBugTreatment: {
+    title: 'Bed Bug Treatment: Heat vs Chemical Methods Explained | Durga Bhavani Pest Control Service',
+    description: 'Compare heat treatment and chemical treatment for bed bugs. Understand which method works best for your situation in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Expert advice from Durga Bhavani Pest Control Service.',
+    keywords: 'bed bug treatment hyderabad, heat treatment bed bugs, chemical bed bug treatment, bed bug removal methods, bed bug treatment nizamabad, bed bug treatment karimnagar, bed bug treatment kamareddy, bed bug treatment adilabad, bed bug elimination, professional bed bug treatment',
+    canonical: '/blog/bed-bug-treatment-hyderabad',
+    ogImage: '/images/Bed Bug Treatment.avif'
+  },
+
+  blogWaterProofingTerrace: {
+    title: 'Terrace Water Proofing: Complete Guide for Hyderabad Homes | Durga Bhavani Pest Control Service',
+    description: 'Protect your terrace from water damage with professional water proofing. Learn about materials, methods, and maintenance for long-lasting protection in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad.',
+    keywords: 'terrace water proofing hyderabad, roof water proofing, terrace leakage repair, water proofing materials, terrace water proofing nizamabad, terrace water proofing karimnagar, terrace water proofing kamareddy, terrace water proofing adilabad, building water proofing, roof protection',
+    canonical: '/blog/water-proofing-terrace-hyderabad',
+    ogImage: '/images/hero-bg.webp'
+  },
+
+  blogCommercialPestControl: {
+    title: 'Commercial Pest Control: Essential Guide for Businesses | Durga Bhavani Pest Control Service',
+    description: 'Why commercial pest control is crucial for restaurants, offices, and warehouses in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Learn about compliance, treatment schedules, and maintenance plans.',
+    keywords: 'commercial pest control guide hyderabad, office pest control, restaurant pest control, warehouse pest management, commercial pest control nizamabad, commercial pest control karimnagar, commercial pest control kamareddy, commercial pest control adilabad, business pest control, FSSAI compliance',
+    canonical: '/blog/commercial-pest-control-hyderabad',
+    ogImage: '/images/COMMERCIAL PEST CONTROL.webp'
+  },
+
+  blogMosquitoControl: {
+    title: 'Mosquito Control and Prevention: Protect Your Family from Diseases | Durga Bhavani Pest Control Service',
+    description: 'Effective mosquito control methods to prevent dengue, malaria, and other diseases. Professional fogging services available in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad.',
+    keywords: 'mosquito control hyderabad, dengue prevention, malaria prevention, mosquito fogging, mosquito breeding control, mosquito control nizamabad, mosquito control karimnagar, mosquito control kamareddy, mosquito control adilabad, larviciding, mosquito prevention tips',
+    canonical: '/blog/mosquito-control-prevention-hyderabad',
+    ogImage: '/images/MOSQUITO CONTROL1.webp'
+  },
+
+  blogRodentControl: {
+    title: 'Rodent Control: How to Eliminate Rats and Mice from Your Home | Durga Bhavani Pest Control Service',
+    description: 'Complete guide to rodent control in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Learn about rat and mouse prevention, trapping methods, and professional extermination services.',
+    keywords: 'rodent control hyderabad, rat control guide, mouse elimination, rodent prevention tips, rodent control nizamabad, rodent control karimnagar, rodent control kamareddy, rodent control adilabad, rat extermination, mouse control methods, rodent proofing',
+    canonical: '/blog/rodent-control-hyderabad-homes',
+    ogImage: '/images/RODENT CONTROL.webp'
+  },
+
+  blogBasementWaterProofing: {
+    title: 'Basement Water Proofing: Solutions for Damp and Leakage Issues | Durga Bhavani Pest Control Service',
+    description: 'Solve basement water problems with professional water proofing. Expert solutions for dampness, leakage, and moisture control in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad properties.',
+    keywords: 'basement water proofing hyderabad, basement leakage repair, basement dampness treatment, basement moisture control, basement water proofing nizamabad, basement water proofing karimnagar, basement water proofing kamareddy, basement water proofing adilabad, foundation water proofing, basement restoration',
+    canonical: '/blog/basement-water-proofing-hyderabad',
+    ogImage: '/images/hero-bg.jpg'
   }
 }
 
