@@ -3,7 +3,7 @@ export const seoData = {
   home: {
     title: 'Best Pest Control Services in Hyderabad | Durga Bhavani Pest Control Service | Top Rated',
     description: '🏆 #1 Pest Control Company in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Termite control, cockroach treatment, bed bug removal, rodent control, water proofing. 24/7 emergency service. 30-day guarantee. Call +91 8790128760',
-    keywords: 'pest control hyderabad, pest control nizamabad, pest control karimnagar, pest control kamareddy, pest control adilabad, pest control near me, best pest control hyderabad, termite control hyderabad, cockroach control hyderabad, bed bug treatment hyderabad, rodent control hyderabad, mosquito control hyderabad, commercial pest control hyderabad, residential pest control hyderabad, emergency pest control hyderabad, pest management hyderabad, pest control banjara hills, pest control jubilee hills, pest control gachibowli, pest control hitec city, pest control kondapur, pest control madhapur, pest control secunderabad, pest control begumpet, pest control somajiguda, pest control abids, pest control kukatpally, exterminator hyderabad, pest control company hyderabad, professional pest control hyderabad',
+    keywords: 'pest control hyderabad, pest control nizamabad, pest control karimnagar, pest control kamareddy, pest control adilabad, pest control near me, best pest control hyderabad, termite control hyderabad, cockroach control hyderabad, bed bug treatment hyderabad, rodent control hyderabad, mosquito control hyderabad, commercial pest control hyderabad, residential pest control hyderabad, emergency pest control hyderabad, pest management hyderabad, pest control banjara hills, pest control jubilee hills, pest control gachibowli, pest control hitec city, pest control kondapur, pest control madhapur, pest control secunderabad, pest control begumpet, pest control somajiguda, pest control abids, pest control kukatpally, pest control miyapur, pest control manikonda, pest control nallagandla, pest control serilingampally, pest control bachupally, pest control kompally, pest control alwal, pest control balanagar, pest control sanath nagar, pest control ameerpet, pest control panjagutta, pest control himayat nagar, pest control lakdikapul, pest control khairatabad, pest control masab tank, pest control mehdipatnam, pest control malakpet, pest control dilsukhnagar, pest control l b nagar, pest control uppal, pest control nagole, pest control hayath nagar, pest control shad nagar, pest control ibrahimpatnam, pest control rajendra nagar, pest control shamshabad, pest control gandipet, pest control osmania university, pest control tarnaka, pest control malkajgiri, pest control bollaram, pest control quthbullapur, pest control bachupally, pest control jeedimetla, pest control patancheru, pest control sangareddy, pest control medchal, pest control shankarpally, pest control moinabad, pest control chevella, pest control vikarabad, pest control shadnagar, pest control mahbubnagar, pest control siddipet, pest control sangareddy, exterminator hyderabad, pest control company hyderabad, professional pest control hyderabad',
     canonical: '/',
     structuredData: {
       "@context": "https://schema.org",
@@ -390,7 +390,7 @@ export const seoData = {
   waterProofing: {
     title: 'Best Building Water Proofing Services in Hyderabad | Professional Water Proofing | Durga Bhavani Pest Control Service',
     description: '🏆 Professional building water proofing services in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Terrace, basement, bathroom, and wall water proofing. Leakage repair and restoration. Expert technicians, premium materials. Call +91 8790128760',
-    keywords: 'water proofing hyderabad, building water proofing hyderabad, terrace water proofing hyderabad, basement water proofing hyderabad, bathroom water proofing hyderabad, wall water proofing hyderabad, leakage repair hyderabad, roof water proofing hyderabad, water proofing near me, water proofing banjara hills, water proofing jubilee hills, water proofing gachibowli, water proofing hitec city, water proofing kondapur, water proofing madhapur, water proofing secunderabad, water proofing begumpet, water proofing somajiguda, water proofing abids, water proofing company hyderabad, professional water proofing hyderabad',
+    keywords: 'water proofing hyderabad, building water proofing hyderabad, terrace water proofing hyderabad, basement water proofing hyderabad, bathroom water proofing hyderabad, wall water proofing hyderabad, leakage repair hyderabad, roof water proofing hyderabad, water proofing near me, water proofing banjara hills, water proofing jubilee hills, water proofing gachibowli, water proofing hitec city, water proofing kondapur, water proofing madhapur, water proofing secunderabad, water proofing begumpet, water proofing somajiguda, water proofing abids, water proofing kukatpally, water proofing miyapur, water proofing manikonda, water proofing nallagandla, water proofing company hyderabad, professional water proofing hyderabad',
     canonical: '/services/water-proofing',
     structuredData: {
       "@context": "https://schema.org",
@@ -403,6 +403,82 @@ export const seoData = {
       },
       "areaServed": ["Hyderabad", "Nizamabad", "Karimnagar", "Kamareddy", "Adilabad"],
       "serviceType": "Water Proofing"
+    }
+  },
+
+  foggingService: {
+    title: 'Best Fogging Service in Hyderabad | Mosquito Fogging & Disinfection | Durga Bhavani Pest Control Service',
+    description: '🏆 Professional fogging services in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Mosquito fogging, disinfection fogging, commercial and residential fogging. Advanced equipment, safe solutions. 24/7 service. Call +91 8790128760',
+    keywords: 'fogging service hyderabad, mosquito fogging hyderabad, disinfection fogging hyderabad, thermal fogging hyderabad, ULV fogging hyderabad, fogging service near me, fogging service banjara hills, fogging service jubilee hills, fogging service gachibowli, fogging service hitec city, fogging service kondapur, fogging service madhapur, fogging service secunderabad, fogging service begumpet, fogging service somajiguda, fogging service abids, fogging service kukatpally, fogging service miyapur, fogging service manikonda, fogging service nallagandla, fogging service company hyderabad, professional fogging service hyderabad',
+    canonical: '/services/fogging-service',
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Fogging Services",
+      "description": "Professional fogging services for mosquito control, disinfection, and pest elimination",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Durga Bhavani Pest Control Service"
+      },
+      "areaServed": ["Hyderabad", "Nizamabad", "Karimnagar", "Kamareddy", "Adilabad"],
+      "serviceType": "Fogging Service"
+    }
+  },
+
+  cinemaShoppingMalls: {
+    title: 'Best Cinema & Shopping Malls Pest Control in Hyderabad | Multiplex Pest Control | Durga Bhavani Pest Control Service',
+    description: '🏆 Specialized pest control for cinemas, shopping malls, multiplexes, and entertainment complexes in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Theater, food court, retail space pest management. Customer-focused solutions. Call +91 8790128760',
+    keywords: 'cinema pest control hyderabad, shopping mall pest control hyderabad, multiplex pest control hyderabad, theater pest control hyderabad, mall pest control hyderabad, entertainment complex pest control hyderabad, cinema pest control near me, cinema pest control banjara hills, cinema pest control jubilee hills, cinema pest control gachibowli, cinema pest control hitec city, cinema pest control kondapur, cinema pest control madhapur, cinema pest control secunderabad, cinema pest control begumpet, cinema pest control somajiguda, cinema pest control abids, cinema pest control kukatpally, cinema pest control miyapur, cinema pest control manikonda, cinema pest control company hyderabad, professional cinema pest control hyderabad',
+    canonical: '/services/cinema-shopping-malls',
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Cinema & Shopping Malls Pest Control",
+      "description": "Specialized pest control solutions for cinemas, shopping malls, multiplexes, and entertainment complexes",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Durga Bhavani Pest Control Service"
+      },
+      "areaServed": ["Hyderabad", "Nizamabad", "Karimnagar", "Kamareddy", "Adilabad"],
+      "serviceType": "Commercial Pest Control"
+    }
+  },
+
+  preConstructionService: {
+    title: 'Best Pre-Construction Pest Control in Hyderabad | Pre-Construction Termite Treatment | Durga Bhavani Pest Control Service',
+    description: '🏆 Professional pre-construction pest control and termite treatment in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. Soil treatment, foundation protection, structural treatment. Cost-effective, long-lasting protection. Call +91 8790128760',
+    keywords: 'pre-construction pest control hyderabad, pre-construction termite treatment hyderabad, soil treatment hyderabad, foundation termite treatment hyderabad, pre-construction service near me, pre-construction pest control banjara hills, pre-construction pest control jubilee hills, pre-construction pest control gachibowli, pre-construction pest control hitec city, pre-construction pest control kondapur, pre-construction pest control madhapur, pre-construction pest control secunderabad, pre-construction pest control begumpet, pre-construction pest control somajiguda, pre-construction pest control abids, pre-construction pest control kukatpally, pre-construction pest control miyapur, pre-construction pest control manikonda, pre-construction pest control company hyderabad, professional pre-construction pest control hyderabad',
+    canonical: '/services/pre-construction-service',
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Pre-Construction Pest Control Service",
+      "description": "Professional pre-construction pest control and termite treatment to protect buildings from the ground up",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Durga Bhavani Pest Control Service"
+      },
+      "areaServed": ["Hyderabad", "Nizamabad", "Karimnagar", "Kamareddy", "Adilabad"],
+      "serviceType": "Pre-Construction Pest Control"
+    }
+  },
+
+  residentialCommercialFactory: {
+    title: 'Best Residential, Commercial & Factory Pest Control in Hyderabad | All Property Types | Durga Bhavani Pest Control Service',
+    description: '🏆 Comprehensive pest control solutions for residential properties, commercial establishments, and industrial factories in Hyderabad, Nizamabad, Karimnagar, Kamareddy, and Adilabad. All property types covered. 24/7 service. Call +91 8790128760',
+    keywords: 'residential commercial factory pest control hyderabad, all property pest control hyderabad, residential pest control hyderabad, commercial pest control hyderabad, factory pest control hyderabad, industrial pest control hyderabad, property pest control near me, residential commercial factory pest control banjara hills, residential commercial factory pest control jubilee hills, residential commercial factory pest control gachibowli, residential commercial factory pest control hitec city, residential commercial factory pest control kondapur, residential commercial factory pest control madhapur, residential commercial factory pest control secunderabad, residential commercial factory pest control begumpet, residential commercial factory pest control somajiguda, residential commercial factory pest control abids, residential commercial factory pest control kukatpally, residential commercial factory pest control miyapur, residential commercial factory pest control manikonda, residential commercial factory pest control company hyderabad, professional property pest control hyderabad',
+    canonical: '/services/residential-commercial-factory',
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Residential, Commercial & Factory Pest Control",
+      "description": "Comprehensive pest control solutions for residential properties, commercial establishments, and industrial factories",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Durga Bhavani Pest Control Service"
+      },
+      "areaServed": ["Hyderabad", "Nizamabad", "Karimnagar", "Kamareddy", "Adilabad"],
+      "serviceType": "Pest Control"
     }
   },
 

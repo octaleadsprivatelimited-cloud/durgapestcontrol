@@ -32,6 +32,10 @@ import HotelPestControl from './pages/services/HotelPestControl.jsx'
 import RetailPestControl from './pages/services/RetailPestControl.jsx'
 import Sanitization from './pages/services/Sanitization.jsx'
 import WaterProofing from './pages/services/WaterProofing.jsx'
+import FoggingService from './pages/services/FoggingService.jsx'
+import CinemaShoppingMalls from './pages/services/CinemaShoppingMalls.jsx'
+import PreConstructionService from './pages/services/PreConstructionService.jsx'
+import ResidentialCommercialFactory from './pages/services/ResidentialCommercialFactory.jsx'
 
 export default function App() {
 	const location = useLocation();
@@ -70,6 +74,10 @@ export default function App() {
 					<Route path="/services/retail-pest-control" element={<RetailPestControl />} />
 					<Route path="/services/sanitization" element={<Sanitization />} />
 					<Route path="/services/water-proofing" element={<WaterProofing />} />
+					<Route path="/services/fogging-service" element={<FoggingService />} />
+					<Route path="/services/cinema-shopping-malls" element={<CinemaShoppingMalls />} />
+					<Route path="/services/pre-construction-service" element={<PreConstructionService />} />
+					<Route path="/services/residential-commercial-factory" element={<ResidentialCommercialFactory />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/blog" element={<Blog />} />
 					<Route path="/blog/:slug" element={<BlogArticle />} />

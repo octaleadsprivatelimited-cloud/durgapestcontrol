@@ -97,6 +97,30 @@ export default function Home() {
 							imageSrc="/images/hero-bg.webp"
 							whatsappLink="https://wa.me/918790128760?text=Hi, I need Building Water Proofing service. Please provide more details and quote." 
 						/>
+						<ServiceCard 
+							title="Fogging Service" 
+							excerpt="Professional fogging for mosquito control, disinfection, and pest elimination" 
+							imageSrc="/images/MOSQUITO CONTROL1.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Fogging Service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Cinema & Shopping Malls" 
+							excerpt="Specialized pest control for cinemas, shopping malls, and entertainment complexes" 
+							imageSrc="/images/COMMERCIAL PEST CONTROL.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Cinema & Shopping Malls pest control service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Pre-Construction Service" 
+							excerpt="Pre-construction pest control and termite treatment to protect your building" 
+							imageSrc="/images/TERMITE CONTROL1.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Pre-Construction Service. Please provide more details and quote." 
+						/>
+						<ServiceCard 
+							title="Residential, Commercial & Factory" 
+							excerpt="Comprehensive pest control for residential, commercial, and industrial properties" 
+							imageSrc="/images/COMMERCIAL PEST CONTROL.webp"
+							whatsappLink="https://wa.me/918790128760?text=Hi, I need Residential, Commercial & Factory pest control service. Please provide more details and quote." 
+						/>
 					</div>
 					<div className="services-cta slide-up-fade">
 						<Link to="/services" className="btn btn-outline continuous-pulse">View All Services</Link>

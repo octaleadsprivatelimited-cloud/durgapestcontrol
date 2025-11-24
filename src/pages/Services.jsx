@@ -15,8 +15,12 @@ const commercialServices = [
 	{ slug: 'warehouse-pest-control', title: 'Warehouse Pest Control', excerpt: 'Industrial pest management for warehouses and storage facilities.' },
 	{ slug: 'hotel-pest-control', title: 'Hotel Pest Control', excerpt: 'Comprehensive pest management for hotels and hospitality businesses.' },
 	{ slug: 'retail-pest-control', title: 'Retail Pest Control', excerpt: 'Pest control solutions for retail stores and shopping centers.' },
+	{ slug: 'cinema-shopping-malls', title: 'Cinema & Shopping Malls', excerpt: 'Specialized pest control for cinemas, shopping malls, and entertainment complexes.' },
 	{ slug: 'sanitization', title: 'Sanitization Services', excerpt: 'Deep cleaning and sanitization for commercial properties.' },
 	{ slug: 'water-proofing', title: 'Building Water Proofing', excerpt: 'Professional water proofing solutions for terraces, basements, bathrooms, and walls.' },
+	{ slug: 'fogging-service', title: 'Fogging Service', excerpt: 'Professional fogging services for mosquito control, disinfection, and pest elimination.' },
+	{ slug: 'pre-construction-service', title: 'Pre-Construction Service', excerpt: 'Pre-construction pest control and termite treatment to protect your building from the ground up.' },
+	{ slug: 'residential-commercial-factory', title: 'Residential, Commercial & Factory', excerpt: 'Comprehensive pest control solutions for residential, commercial, and industrial properties.' },
 ]
 
 import SEO from '../components/SEO.jsx'

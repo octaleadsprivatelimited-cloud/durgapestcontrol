@@ -15,6 +15,10 @@ const serviceImagesBySlug = {
 	'retail-pest-control': '/images/Retail Pest Control.avif',
 	'sanitization': '/images/Sanitization Services.webp',
 	'water-proofing': '/images/hero-bg.webp',
+	'fogging-service': '/images/MOSQUITO CONTROL1.webp',
+	'cinema-shopping-malls': '/images/COMMERCIAL PEST CONTROL.webp',
+	'pre-construction-service': '/images/TERMITE CONTROL1.webp',
+	'residential-commercial-factory': '/images/COMMERCIAL PEST CONTROL.webp',
 }
 
 // Image mapping by service title (for WhatsApp links)
@@ -32,6 +36,10 @@ const serviceImagesByTitle = {
 	'Retail Pest Control': '/images/Retail Pest Control.avif',
 	'Sanitization Services': '/images/Sanitization Services.webp',
 	'Building Water Proofing': '/images/hero-bg.webp',
+	'Fogging Service': '/images/MOSQUITO CONTROL1.webp',
+	'Cinema & Shopping Malls': '/images/COMMERCIAL PEST CONTROL.webp',
+	'Pre-Construction Service': '/images/TERMITE CONTROL1.webp',
+	'Residential, Commercial & Factory': '/images/COMMERCIAL PEST CONTROL.webp',
 }
 
 export default function ServiceCard({ title, excerpt, to, imageSrc, whatsappLink }) {
@@ -103,6 +111,10 @@ function getServiceIcon(title) {
 		'Hotel Pest Control': '🏨',
 		'Retail Pest Control': '🛍️',
 		'Sanitization Services': '🧽',
+		'Fogging Service': '🌫️',
+		'Cinema & Shopping Malls': '🎬',
+		'Pre-Construction Service': '🏗️',
+		'Residential, Commercial & Factory': '🏭',
 	}
 	return iconMap[title] || '🛡️'
 }

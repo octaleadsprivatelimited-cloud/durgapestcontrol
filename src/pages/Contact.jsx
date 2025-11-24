@@ -18,6 +18,10 @@ export default function Contact() {
         'Rodent Control',
         'Mosquito Control',
         'Building Water Proofing',
+        'Fogging Service',
+        'Cinema & Shopping Malls',
+        'Pre-Construction Service',
+        'Residential, Commercial & Factory',
         'Emergency Service',
         'Other'
     ]
