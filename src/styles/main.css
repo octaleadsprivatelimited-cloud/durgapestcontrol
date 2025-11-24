@@ -112,6 +112,20 @@ p {
 	background: #000000;
 	padding: 6px 0;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	overflow: hidden;
+	max-height: 50px;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.top-header.hidden {
+	max-height: 0;
+	padding: 0;
+	opacity: 0;
+	transform: translateY(-100%);
+	margin: 0;
+	border-bottom: none;
 }
 
 .top-header-inner {
@@ -240,7 +254,11 @@ p {
 	height: 70px;
 	width: auto;
 	object-fit: contain;
-	transition: opacity 0.2s ease;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo.scrolled .logo-image {
+	height: 90px;
 }
 
 .logo:hover .logo-image {
@@ -257,7 +275,12 @@ p {
 	width: auto; 
 	display: block; 
 	object-fit: contain;
-	transition: opacity 0.2s ease;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo.scrolled img,
+.logo.scrolled .logo-image {
+	height: 90px;
 }
 
 .logo-text {

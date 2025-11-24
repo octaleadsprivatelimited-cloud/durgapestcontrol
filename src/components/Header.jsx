@@ -16,7 +16,7 @@ export default function Header() {
 	return (
 		<header className={`site-header ${scrolled ? 'scrolled' : ''}`}>
 			{/* Top Header */}
-			<div className="top-header">
+			<div className={`top-header ${scrolled ? 'hidden' : ''}`}>
 				<div className="container top-header-inner">
 					<div className="top-header-left">
 						<a href="tel:+918790128760" className="contact-item">
@@ -53,7 +53,7 @@ export default function Header() {
 			{/* Main Header - Apple Style */}
 			<div className="main-header">
 				<div className="container main-header-inner">
-				<Link to="/" className="logo" onClick={() => setOpen(false)}>
+				<Link to="/" className={`logo ${scrolled ? 'scrolled' : ''}`} onClick={() => setOpen(false)}>
 					<img src="/images/logo.png" alt="Durga Bhavani Pest Control Service" className="logo-image" />
 				</Link>
 					<nav className={`nav ${open ? 'open' : ''}`} id="primary-nav">
