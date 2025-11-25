@@ -19,7 +19,7 @@ const serviceImagesBySlug = {
 	'cinema-shopping-malls': '/images/cinema-shopping-malls.jpg',
 	'pre-construction-service': '/images/TERMITE CONTROL1.webp',
 	'residential-commercial-factory': '/images/residential-commercial-factory.jpg',
-	'anti-termite-pipeline': '/images/anti-termite-pipeline.webp',
+	'anti-termite-pipeline': '/images/termite-reticulation-system-1.jpg',
 }
 
 // Image mapping by service title (for WhatsApp links)
@@ -41,7 +41,7 @@ const serviceImagesByTitle = {
 	'Cinema & Shopping Malls': '/images/cinema-shopping-malls.jpg',
 	'Pre-Construction Service': '/images/TERMITE CONTROL1.webp',
 	'Residential, Commercial & Factory': '/images/residential-commercial-factory.jpg',
-	'Anti-Termite Pipeline Service': '/images/anti-termite-pipeline.webp',
+	'Anti-Termite Pipeline Service': '/images/termite-reticulation-system-1.jpg',
 }
 
 export default function ServiceCard({ title, excerpt, to, imageSrc, whatsappLink }) {

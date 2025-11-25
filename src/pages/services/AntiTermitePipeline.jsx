@@ -14,6 +14,20 @@ export default function AntiTermitePipeline() {
 				</div>
 			</section>
 
+			{/* Service Image Section */}
+			<section className="service-image-section">
+				<div className="container">
+					<div className="service-image-wrapper">
+						<img 
+							src="/images/termite-reticulation-system-1.jpg" 
+							alt="Anti-Termite Reticulation System Installation" 
+							className="service-main-image"
+							loading="lazy"
+						/>
+					</div>
+				</div>
+			</section>
+
 			{/* Process Section */}
 			<section className="process-section">
 				<div className="container">

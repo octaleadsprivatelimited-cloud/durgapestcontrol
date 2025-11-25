@@ -5318,6 +5318,27 @@ div.service-detail-page section.cta-section .container .btn {
 	opacity: 0.9;
 }
 
+/* Service Image Section */
+.service-image-section {
+	padding: 60px 0;
+	background: #f9fafb;
+}
+
+.service-image-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.service-main-image {
+	width: 100%;
+	height: auto;
+	display: block;
+	object-fit: cover;
+}
+
 /* Service Content */
 .service-content {
 	padding: 60px 0;

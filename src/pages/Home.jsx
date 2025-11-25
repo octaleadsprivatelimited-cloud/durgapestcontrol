@@ -124,7 +124,7 @@ export default function Home() {
 						<ServiceCard 
 							title="Anti-Termite Pipeline Service" 
 							excerpt="Professional anti-termite pipeline installation and treatment for long-term protection" 
-							imageSrc="/images/anti-termite-pipeline.webp"
+							imageSrc="/images/termite-reticulation-system-1.jpg"
 							whatsappLink="https://wa.me/918790128760?text=Hi, I need Anti-Termite Pipeline Service. Please provide more details and quote." 
 						/>
 					</div>
